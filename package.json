@@ -1,5 +1,5 @@
 {
-  "name": "whois-json",
+  "name": "@tzpro/whois-json",
   "version": "2.0.5",
   "description": "whois, with actual JavaScript (not flat string) results!",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url": "https://github.com/mikemaccana/whois-json.git"
   },
   "dependencies": {
-    "change-case": "5.3.0",
+    "change-case": "3.0.2",
     "dedent-js": "1.0.1",
     "html-entities": "2.4.0",
     "whois": "2.14.0"
