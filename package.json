@@ -1,5 +1,5 @@
 {
-  "name": "@tzpro/whois-json",
+  "name": "whois-json",
   "version": "2.0.5",
   "description": "whois, with actual JavaScript (not flat string) results!",
   "main": "index.js",
