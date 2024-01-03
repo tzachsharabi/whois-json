@@ -1,13 +1,12 @@
 const os = require('os'),
 	log = console.log.bind(console),
 	changeCase = require('change-case'),
-	htmlEntities = require('html-entities').XmlEntities;
+	htmlEntities = require('html-entities');
 
 const DELIMITER = ':';
 
 var stripHTMLEntitites = function(rawData){
-	var entities = new htmlEntities();
-	return entities.decode(rawData);
+	return htmlEntities.decode(rawData);
 }
 
 //Checks whether a delimiter followed by a space common in this result
